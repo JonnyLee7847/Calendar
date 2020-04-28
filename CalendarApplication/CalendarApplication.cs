@@ -13,7 +13,7 @@ namespace Calendar
         static void Main()
         {
 
-            //  tesstt ooff aa cchaanggess
+            //  tesstt ooff aa cchaanggess - my change
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
