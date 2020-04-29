@@ -12,8 +12,6 @@ namespace Calendar
         [STAThread]
         static void Main()
         {
-
-            //  tesstt ooff aa cchaanggess - my change
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());

@@ -301,6 +301,7 @@ namespace Calendar
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelLeft;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelRight;
+        
     }
 }
 

@@ -267,6 +267,7 @@ namespace Calendar
         private void buttonNewAppt_Click(object sender, EventArgs e)
         {
             NewSingleEntry();
+           
         }
 
         private void newAppointmentToolStripMenuItem_Click(object sender, EventArgs e)
