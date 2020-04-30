@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Calendar
 {
-    public partial class newRecurringApptForm : Form
+    public partial class RecurringApptForm : Form
     {
-        public newRecurringApptForm()
+        public RecurringApptForm()
         {
             InitializeComponent();
         }

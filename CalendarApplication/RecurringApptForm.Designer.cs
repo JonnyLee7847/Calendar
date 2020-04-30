@@ -1,6 +1,6 @@
 ﻿namespace Calendar
 {
-    partial class newRecurringApptForm
+    partial class RecurringApptForm
     {
         /// <summary>
         /// Required designer variable.
@@ -103,6 +103,55 @@
             // startTimeRecAppt
             // 
             this.startTimeRecAppt.FormattingEnabled = true;
+            this.startTimeRecAppt.Items.AddRange(new object[] {
+            "00:00",
+            "00:30",
+            "01:00",
+            "01:30",
+            "02:00",
+            "02:30",
+            "03:00",
+            "03:30",
+            "04:00",
+            "04:30",
+            "05:00",
+            "05:30",
+            "06:00",
+            "06:30",
+            "07:00",
+            "07:30",
+            "08:00",
+            "08:30",
+            "09:00",
+            "09:30",
+            "10:00",
+            "10:30",
+            "11:00",
+            "11:30",
+            "12:00",
+            "12:30",
+            "13:00",
+            "13:30",
+            "14:00",
+            "14:30",
+            "15:00",
+            "15:30",
+            "16:00",
+            "16:30",
+            "17:00",
+            "17:30",
+            "18:00",
+            "18:30",
+            "19:00",
+            "19:30",
+            "20:00",
+            "20:30",
+            "21:00",
+            "21:30",
+            "22:00",
+            "22:30",
+            "23:00",
+            "23:30"});
             this.startTimeRecAppt.Location = new System.Drawing.Point(267, 78);
             this.startTimeRecAppt.Name = "startTimeRecAppt";
             this.startTimeRecAppt.Size = new System.Drawing.Size(67, 21);
@@ -119,6 +168,31 @@
             // lengthRecAppt
             // 
             this.lengthRecAppt.FormattingEnabled = true;
+            this.lengthRecAppt.Items.AddRange(new object[] {
+            "30 minutes",
+            "1 hour ",
+            "1 hour 30 minutes",
+            "2 hours",
+            "2 hour 30 minutes",
+            "3 hours",
+            "3 hours 30 minutes",
+            "4 hours",
+            "4 hours 30 minutes",
+            "5 hours",
+            "5 hours 30 minutes",
+            "6 hours",
+            "6 hours 30 minutes",
+            "7 hours",
+            "7 hours 30 minutes",
+            "8 hours",
+            "8 hours 30 minutes",
+            "9 hours",
+            "9 hours 30 minutes",
+            "10 hours",
+            "10 hours 30 minutes",
+            "11 hours",
+            "11 hours 30 minutes",
+            "12 hours"});
             this.lengthRecAppt.Location = new System.Drawing.Point(441, 79);
             this.lengthRecAppt.Name = "lengthRecAppt";
             this.lengthRecAppt.Size = new System.Drawing.Size(68, 21);
@@ -143,6 +217,11 @@
             // frequencyRecAppt
             // 
             this.frequencyRecAppt.FormattingEnabled = true;
+            this.frequencyRecAppt.Items.AddRange(new object[] {
+            "Daily",
+            "Weekly",
+            "Yearly",
+            "Monthly"});
             this.frequencyRecAppt.Location = new System.Drawing.Point(86, 131);
             this.frequencyRecAppt.Name = "frequencyRecAppt";
             this.frequencyRecAppt.Size = new System.Drawing.Size(66, 21);
@@ -205,20 +284,20 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox subjectRecAppt;
+        private System.Windows.Forms.TextBox subjectRecurringAppt;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox locationRecAppt;
+        private System.Windows.Forms.TextBox locationRecurringAppt;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox dateRecAppt;
+        private System.Windows.Forms.TextBox dateRecurringAppt;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.ComboBox startTimeRecAppt;
+        private System.Windows.Forms.ComboBox startTimeRecurringAppt;
         private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.ComboBox lengthRecAppt;
+        private System.Windows.Forms.ComboBox lengthRecurringAppt;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.ComboBox frequencyRecAppt;
-        private System.Windows.Forms.TextBox howManyRecAppt;
-        private System.Windows.Forms.Button cancelNewRecAppt;
-        private System.Windows.Forms.Button saveNewRecAppt;
+        private System.Windows.Forms.ComboBox frequencyRecurringAppt;
+        private System.Windows.Forms.TextBox howManyRecurringAppt;
+        private System.Windows.Forms.Button cancelRecurringAppt;
+        private System.Windows.Forms.Button saveRecurringAppt;
     }
 }

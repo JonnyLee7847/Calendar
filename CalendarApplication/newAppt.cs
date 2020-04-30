@@ -11,21 +11,38 @@ namespace Calendar
 
         string _subjectNewAppt;
         string _locationNewAppt;
-        
-        private newAppt()
+        int _lengthNewAppt;
+        DateTime _dateNewAppt;
+        DateTime _startTimeNewAppt;
+
+
+        public newAppt()
         {
             _subjectNewAppt = string.Empty;
             _locationNewAppt = string.Empty; 
             
         }
         
-        private newAppt(string subjectNewAppt, string locationNewAppt)
+        public newAppt(string subjectNewAppt, string locationNewAppt)
         {
             _subjectNewAppt = subjectNewAppt;
             _locationNewAppt = locationNewAppt;
         }
 
-        private string subjectNewAppt
+        public newAppt(int lengthNewAppt)
+        {
+            _lengthNewAppt = lengthNewAppt;
+        }
+
+        public newAppt(DateTime dateNewAppt, DateTime startTimeNewAppt)
+        {
+            dateNewAppt = _dateNewAppt;
+            startTimeNewAppt = _startTimeNewAppt;
+        }
+
+
+
+        public string subjectNewAppt
         {
             get
             {
@@ -38,7 +55,7 @@ namespace Calendar
             }
         }
 
-        private string locationNewAppt
+        public string locationNewAppt
         {
             get
             {
@@ -52,21 +69,47 @@ namespace Calendar
 
         }
 
-
-
-
-        private System.Windows.Forms.TextBox dateNewAppt
+        public int lengthNewAppt
         {
+            get
+            {
+                return _lengthNewAppt;
+            }
 
+            set
+            {
+                _lengthNewAppt = value; 
+            }
         }
-        private System.Windows.Forms.ComboBox startTimeNewAppt
+
+
+        public DateTime dateNewAppt
         {
+            get
+            {
+                return _dateNewAppt;
+            }
 
+            set
+            {
+                _dateNewAppt = value;
+            }
         }
-        private System.Windows.Forms.ComboBox lengthNewAppt(int)
+            
+        public DateTime startTimeNewAppt
         {
+            get
+            {
+                return _startTimeNewAppt;
+            }
 
+            set
+            {
+                _startTimeNewAppt = value;
+            }
         }
+        
+        
             
     }
 }

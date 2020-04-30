@@ -124,6 +124,55 @@
             // startTimeNewAppt
             // 
             this.startTimeNewAppt.FormattingEnabled = true;
+            this.startTimeNewAppt.Items.AddRange(new object[] {
+            "00:00",
+            "00:30",
+            "01:00",
+            "01:30",
+            "02:00",
+            "02:30",
+            "03:00",
+            "03:30",
+            "04:00",
+            "04:30",
+            "05:00",
+            "05:30",
+            "06:00",
+            "06:30",
+            "07:00",
+            "07:30",
+            "08:00",
+            "08:30",
+            "09:00",
+            "09:30",
+            "10:00",
+            "10:30",
+            "11:00",
+            "11:30",
+            "12:00",
+            "12:30",
+            "13:00",
+            "13:30",
+            "14:00",
+            "14:30",
+            "15:00",
+            "15:30",
+            "16:00",
+            "16:30",
+            "17:00",
+            "17:30",
+            "18:00",
+            "18:30",
+            "19:00",
+            "19:30",
+            "20:00",
+            "20:30",
+            "21:00",
+            "21:30",
+            "22:00",
+            "22:30",
+            "23:00",
+            "23:30"});
             this.startTimeNewAppt.Location = new System.Drawing.Point(251, 116);
             this.startTimeNewAppt.Name = "startTimeNewAppt";
             this.startTimeNewAppt.Size = new System.Drawing.Size(68, 21);
@@ -132,6 +181,31 @@
             // lengthNewAppt
             // 
             this.lengthNewAppt.FormattingEnabled = true;
+            this.lengthNewAppt.Items.AddRange(new object[] {
+            "30 minutes",
+            "1 hour ",
+            "1 hour 30 minutes",
+            "2 hours",
+            "2 hour 30 minutes",
+            "3 hours",
+            "3 hours 30 minutes",
+            "4 hours",
+            "4 hours 30 minutes",
+            "5 hours",
+            "5 hours 30 minutes",
+            "6 hours",
+            "6 hours 30 minutes",
+            "7 hours",
+            "7 hours 30 minutes",
+            "8 hours",
+            "8 hours 30 minutes",
+            "9 hours",
+            "9 hours 30 minutes",
+            "10 hours",
+            "10 hours 30 minutes",
+            "11 hours",
+            "11 hours 30 minutes",
+            "12 hours"});
             this.lengthNewAppt.Location = new System.Drawing.Point(415, 117);
             this.lengthNewAppt.Name = "lengthNewAppt";
             this.lengthNewAppt.Size = new System.Drawing.Size(68, 21);

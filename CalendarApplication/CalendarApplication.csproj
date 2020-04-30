@@ -77,12 +77,12 @@
     <Compile Include="newApptForm.Designer.cs">
       <DependentUpon>newApptForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="newRecAppt.cs" />
-    <Compile Include="newRecurringApptForm.cs">
+    <Compile Include="recurringAppt.cs" />
+    <Compile Include="RecurringApptForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="newRecurringApptForm.Designer.cs">
-      <DependentUpon>newRecurringApptForm.cs</DependentUpon>
+    <Compile Include="RecurringApptForm.Designer.cs">
+      <DependentUpon>RecurringApptForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
@@ -92,8 +92,8 @@
     <EmbeddedResource Include="newApptForm.resx">
       <DependentUpon>newApptForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="newRecurringApptForm.resx">
-      <DependentUpon>newRecurringApptForm.cs</DependentUpon>
+    <EmbeddedResource Include="RecurringApptForm.resx">
+      <DependentUpon>RecurringApptForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
