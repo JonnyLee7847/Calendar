@@ -6,12 +6,24 @@ namespace Calendar
     public class CalendarEntries : List<ICalendarEntry>
      {
 
+        IEnumerable<string> lines;
+        IEnumerable<string> line;
+        
+
         public bool Load(string calendarEntriesFile)
         {
 
 
+
+            char[] mychar = ("|");
             string[] lines = System.IO.File.ReadAllLines(@"C:\Users\jonod\OneDrive\Documents\100460457\Calendar_StartingSolution\Calendar_StartingSolution\CalendarApplication\bin\Debug\appointments.txt");
-            lineInFile("|");
+
+            foreach (string line in lines)
+            {
+                string[] line = lines.Split("|");
+            }
+
+
         
         
 
