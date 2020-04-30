@@ -20,7 +20,7 @@ namespace Calendar
 
             foreach (string line in lines)
             {
-                string[] Splitline = line.Split('|');
+                string[] Splitline = line.Split(delimiter);
             }
 
 
