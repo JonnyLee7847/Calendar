@@ -8,14 +8,53 @@ namespace Calendar
 {
     class newAppt
     {
-        private System.Windows.Forms.TextBox subjectNewAppt(string)
+
+        string _subjectNewAppt;
+        string _locationNewAppt;
+        
+        private newAppt()
         {
+            _subjectNewAppt = string.Empty;
+            _locationNewAppt = string.Empty; 
+            
+        }
+        
+        private newAppt(string subjectNewAppt, string locationNewAppt)
+        {
+            _subjectNewAppt = subjectNewAppt;
+            _locationNewAppt = locationNewAppt;
+        }
+
+        private string subjectNewAppt
+        {
+            get
+            {
+                return _subjectNewAppt;
+            }
+
+            set
+            {
+                _subjectNewAppt = value;
+            }
+        }
+
+        private string locationNewAppt
+        {
+            get
+            {
+                return _locationNewAppt;
+            }
+
+            set
+            {
+                _locationNewAppt = value;
+            }
 
         }
-        private System.Windows.Forms.TextBox locationNewAppt(string)
-        {
 
-        }
+
+
+
         private System.Windows.Forms.TextBox dateNewAppt
         {
 
