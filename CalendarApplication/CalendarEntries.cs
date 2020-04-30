@@ -8,9 +8,16 @@ namespace Calendar
 
         public bool Load(string calendarEntriesFile)
         {
-            // TODO.  Add your code to load the data from the file specified in
-            //        calendarEntriesFile here.  You can edit the following two 
-            //        lines if you wish.
+            class ReadFromFile
+
+            static void main()
+        {
+
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\jonod\OneDrive\Documents\100460457\Calendar_StartingSolution\Calendar_StartingSolution\CalendarApplication\bin\Debug\appointments.txt");
+            
+        }
+        
+
             bool status = true;
             return status;
         }
