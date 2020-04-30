@@ -8,14 +8,11 @@ namespace Calendar
 
         public bool Load(string calendarEntriesFile)
         {
-            class ReadFromFile
 
-            static void main()
-        {
 
             string[] lines = System.IO.File.ReadAllLines(@"C:\Users\jonod\OneDrive\Documents\100460457\Calendar_StartingSolution\Calendar_StartingSolution\CalendarApplication\bin\Debug\appointments.txt");
-            
-        }
+            lineInFile("|");
+        
         
 
             bool status = true;
