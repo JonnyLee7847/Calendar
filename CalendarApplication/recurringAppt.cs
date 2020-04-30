@@ -9,130 +9,130 @@ namespace Calendar
     class recurringAppt
     {
 
-        string _subjectRecurringAppt;
-        string _locationRecurringAppt;
-        string _frequencyRecurringAppt;
-        int _howManyRecurringAppt;
-        int _lengthRecurringAppt;
-        DateTime _dateRecurringAppt;
-        DateTime _startTimeRecurringAppt;
+        string _subjectRecAppt;
+        string _locationRecAppt;
+        string _frequencyRecAppt;
+        int _howManyRecAppt;
+        int _lengthRecAppt;
+        DateTime _dateRecAppt;
+        DateTime _startTimeRecAppt;
 
 
         public recurringAppt()
         {
-            _subjectRecurringAppt = string.Empty;
-            _locationRecurringAppt = string.Empty;
-            _frequencyRecurringAppt = string.Empty;
+            _subjectRecAppt = string.Empty;
+            _locationRecAppt = string.Empty;
+            _frequencyRecAppt = string.Empty;
         }
 
-        public recurringAppt(string subjectRecurringAppt, string locationRecurringAppt, string frequencyRecurringAppt)
+        public recurringAppt(string subjectRecAppt, string locationRecAppt, string frequencyRecAppt)
         {
-            _subjectRecurringAppt = subjectRecurringAppt;
-            _locationRecurringAppt = locationRecurringAppt;
-            _frequencyRecurringAppt = frequencyRecurringAppt;
+            _subjectRecAppt = subjectRecAppt;
+            _locationRecAppt = locationRecAppt;
+            _frequencyRecAppt = frequencyRecAppt;
         }
 
-        public recurringAppt(int howManyRecurringAppt, int lengthRecurringAppt)
+        public recurringAppt(int howManyRecAppt, int lengthRecAppt)
         {
-            _howManyRecurringAppt = howManyRecurringAppt;
-            _lengthRecurringAppt = lengthRecurringAppt;
+            _howManyRecAppt = howManyRecAppt;
+            _lengthRecAppt = lengthRecAppt;
         }
 
-        public recurringAppt(DateTime dateRecurringAppt, DateTime startTimeRecurringAppt)
+        public recurringAppt(DateTime dateRecAppt, DateTime startTimeRecAppt)
         {
-            _dateRecurringAppt = dateRecurringAppt;
-            _startTimeRecurringAppt = startTimeRecurringAppt;
+            _dateRecAppt = dateRecAppt;
+            _startTimeRecAppt = startTimeRecAppt;
         }
 
-        public string subjectRecurringAppt
+        public string subjectRecAppt
         {
             get
             {
-                return _subjectRecurringAppt;
+                return _subjectRecAppt;
             }
 
             set
             {
-                _subjectRecurringAppt = value;
+                _subjectRecAppt = value;
             }
         }
 
-        public string locationRecurringAppt
+        public string locationRecAppt
         {
             get
             {
-                return _locationRecurringAppt;
+                return _locationRecAppt;
             }
 
             set
             {
-                _locationRecurringAppt = value;
+                _locationRecAppt = value;
             }
         }
 
-        public string frequencyRecurringAppt
+        public string frequencyRecAppt
         {
             get
             {
-                return _frequencyRecurringAppt;
+                return _frequencyRecAppt;
             }
 
             set
             {
-                _frequencyRecurringAppt = value;
+                _frequencyRecAppt = value;
             }
         }
 
 
-        public int howManyRecurringAppt
+        public int howManyRecAppt
         {
             get
             {
-                return _howManyRecurringAppt;
+                return _howManyRecAppt;
             }
 
             set
             {
-                _howManyRecurringAppt = value;
+                _howManyRecAppt = value;
             }
         }
 
-        public int lengthRecurringAppt
+        public int lengthRecAppt
         {
             get
             {
-                return _lengthRecurringAppt;
+                return _lengthRecAppt;
             }
 
             set
             {
-                _lengthRecurringAppt = value;
+                _lengthRecAppt = value;
             }
         }
 
-        public DateTime dateRecurringAppt
+        public DateTime dateRecAppt
         {
             get
             {
-                return _dateRecurringAppt;
+                return _dateRecAppt;
             }
 
             set
             {
-                _dateRecurringAppt = value;
+                _dateRecAppt = value;
             }
         }
 
-        public DateTime startTimeRecurringAppt
+        public DateTime startTimeRecAppt
         {
             get
             {
-                return _startTimeRecurringAppt;
+                return _startTimeRecAppt;
             }
 
             set
             {
-                _startTimeRecurringAppt = value;
+                _startTimeRecAppt = value;
             }
         }
 
