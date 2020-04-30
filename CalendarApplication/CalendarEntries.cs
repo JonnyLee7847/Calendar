@@ -15,12 +15,12 @@ namespace Calendar
 
 
 
-            char[] mychar = ("|");
+            char = ('|');
             string[] lines = System.IO.File.ReadAllLines(@"C:\Users\jonod\OneDrive\Documents\100460457\Calendar_StartingSolution\Calendar_StartingSolution\CalendarApplication\bin\Debug\appointments.txt");
 
             foreach (string line in lines)
             {
-                string[] line = lines.Split("|");
+                string[] Splitline = line.Split('|');
             }
 
 
